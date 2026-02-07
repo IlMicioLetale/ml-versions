@@ -1,0 +1,24 @@
+1.1.0
+[NEW FEATURES]
+- New Rarity Theme: Added a third theme that colors the container borders with the item's rarity color.
+- Improved Player Inventory UI: Enhanced aesthetics when opening another player's inventory, now showing clothing image placeholders in the dedicated slots for easier item exchange and place.
+- Refined Information Container: Reduced the size and slightly increased the transparency of the item information container for better visibility.
+
+
+1.0.4
+[NEW FEATURES]
+- Added a new 3D prop that appears when inserting a plate
+- New logic for wearing armor: simply use the item for rapid equipping.
+- Added an option in the config to disable unwanted notifications.
+
+
+1.0.3
+[NEW FEATURES]
+- Added new rarity styles (classic and border) in the build folder.
+
+
+1.0.2
+[NEW FEATURES]
+- Added a larger item photo preview when dragging items in the UI.
+- Improved logic to prevent unauthorized items from being placed in dedicated clothing slots.
+- Updated ox_inventory to the latest community version.

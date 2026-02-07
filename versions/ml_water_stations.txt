@@ -1,0 +1,16 @@
+2.0.1
+[NEW FEATURES]
+New Rain Detection Logic: Implemented a new logic for detecting rain, making some parts of the configuration obsolete and simplifying setup.
+
+2.0.0
+[NEW FEATURES]
+Total Liquid Autonomy: You can create your own liquid types (e.g., 'chemicals', 'oil') and define unique colors, labels, and interaction logic in Config.LiquidTypes.
+New Optional In-World DUI: A configurable, in-world DUI is introduced to display real-time fill level and durability (Health) of the tank from a distance.
+Percentage-Based Repairs: The configuration is extended to allow setting the precise health percentage (addHealth) restored by a specific repair item for each tank type.
+Custom Decay Rates: Each container model now supports its own specific decayRate to control the speed of natural wear and tear.
+Selective Rain Refill: Rain refill is now limited to the liquid types explicitly listed in Config.RainyFillableTypes (e.g., water only).
+Automatic Tank Cleanup: Added options to automatically delete old, unused tanks (Config.DeleteOld), with optional checks to delete only if they are empty or broken (Config.DeleteOptions).
+
+1.0.4
+[NEW FEATURES]
+Added fixed stations that can be placed in strategic locations. These stations are influenced by rain and other effects, and their gather button is disabled.

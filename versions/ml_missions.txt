@@ -1,0 +1,30 @@
+1.0.7
+[NEW FEATURES]
+- Required Item Check: Added an optional entry for a required item needed to start a quest.
+- Item Logic: Includes options to remove the item at the start of the quest or simply check for its presence before starting.
+- Dialogue Menu: The required item's name is displayed in the dialogue menu, with an overlay if the player does not have the item.
+
+[BUG FIXES]
+- Defense Module Fix: Fixed a spawn bug in the Defense module when no primary spawn coordinates were set (the system now randomly selects coordinates from the list).
+
+[IMPROVEMENTS]
+-
+
+1.0.6
+[NEW FEATURES]
+- Interact Progress - Item Section: Added a dedicated "item" section to the INTERACT PROGRESS module, enabling flexible item checks:
+- Check Item: Ability to check for an item before starting the interaction.
+- Failure Removal: Option to remove the item upon minigame failure.
+- Success Removal: Option to remove the item upon completion of the progress bar.
+(Note: If neither removal flag is selected, the item is not consumed, useful for keys, etc.)
+
+
+1.0.5
+[NEW FEATURES]
+- Added a new configuration option (RewardsInfo) to choose how to display quest rewards (e.g., item name, image, or combo).
+
+
+1.0.4
+[NEW FEATURES]
+- Unique Missions: Added an option for a unique mission that can be completed only one time per player (ideal for initial quests).
+- Job Requirements: Added an optional entry to set required jobs to start a quest (supports multiple jobs).

@@ -1,0 +1,19 @@
+1.1.0
+[NEW FEATURES]
+UI Refactoring: Complete rewrite of the NUI interface using React, TypeScript, and Vite for improved performance and maintainability.
+UI Customization: Added configuration options for text appearance:
+Loca.UI.TextColor: Customize text color.
+Loca.UI.TextShadow: Enable/disable text shadow.
+Loca.UI.TextShadowColor: Customize shadow color.
+And more..
+Enhanced Drag Mode:
+Auto-Follow: UI now automatically follows the mouse cursor when entering drag mode.
+Mouse Wheel Scaling: Adjust UI size using the mouse wheel while in drag mode.
+Real-World Time & Offset:
+Added time options: Loca.DateOffsetDays, Loca.DateOffsetMonths, Loca.DateOffsetYears to adjust the displayed real-world date.
+Localization Structure: Translations have been moved from config.lua to separate locales/*.lua files.
+
+1.0.2
+[NEW FEATURES]
+Added new configuration options to customize date and time display (Loca.FixedYear, Loca.SeeDate, Loca.SeeYear, Loca.SeeTime).
+
