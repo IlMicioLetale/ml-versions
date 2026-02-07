@@ -1,0 +1,40 @@
+1.0.8
+[NEW FEATURES]
+Added the option not to spawn props for specific fixed stations.
+Interaction Settings: Added new configuration entries for station:
+spawnDistance: Distance for rendering station props.
+interactionDistance: Distance for target/TextUI interaction.
+duiRenderDistance: Distance for in-world UI (DUI) visibility.
+duiOffsetZ: Vertical offset for the in-world UI (DUI).
+Zone Customization: Added new options to define the zone type and dimensions for fixed stations with no prop:
+zoneType: Choose between 'box' (with zoneSize and zoneRotation) or 'sphere' (with zoneRadius).
+
+
+1.0.7
+[NEW FEATURES]
+Added a new configuration option to set the number of days after which old, unused stations are automatically deleted.
+Added advanced control options to refine the deletion criteria (e.g., delete only if empty, unlit, or broken).
+
+1.0.6
+[NEW FEATURES]
+Added fixed stations via config. These non-collectible stations include optional fuel and wear/tear features, making them ideal for placement in safe zones.
+
+
+1.0.5
+[NEW FEATURES]
+Added a new handler to communicate with other scripts. See docs https://miciomods.it/docs#handler
+
+
+1.0.4
+[NEW FEATURES]
+Completely revamped the crafting interface for a clearer and faster user experience.
+Added a new quantity selector (+ / - and manual input) to specify how many times a recipe should be crafted.
+The interface now shows a dynamic "Required / Available" summary for all materials.
+Visual indicators (green/red) instantly show if you have enough resources.
+Replaced text labels (e.g., "Time", "Fuel") with clear, universal icons.
+
+
+1.0.3
+[NEW FEATURES]
+Added new config.lua options to customize or disable the DUI rendering distance.
+Increased the maximum number of cooking slots from 4 to 8.
