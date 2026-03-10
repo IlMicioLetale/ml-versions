@@ -1,5 +1,5 @@
 2.0.1
-[NEW FEATURES]
+[BUG FIXES]
 - Fixed vehicle logic spawn
 - Fixed label items on fetch 
 
