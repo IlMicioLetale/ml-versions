@@ -1,3 +1,7 @@
+2.0.1
+[NEW FEATURES]
+- Test changelog
+
 1.0.7
 [NEW FEATURES]
 - Required Item Check: Added an optional entry for a required item needed to start a quest.
