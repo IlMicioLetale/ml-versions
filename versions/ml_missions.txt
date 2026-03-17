@@ -1,3 +1,13 @@
+2.0.3
+[NEW FEATURES]
+- Add random drawable on enemy spawn
+
+[IMPROVEMENTS]
+- Cleared some old ui stuff
+- Add delay on dead peds
+
+
+
 2.0.1
 [BUG FIXES]
 - Fixed vehicle logic spawn
