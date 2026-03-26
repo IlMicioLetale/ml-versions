@@ -1,3 +1,12 @@
+2.0.5
+[NEW FEATURES]
+- Added a new module for loot with presets like money stacks and more. (This is currently in the testing phase).
+- Added support for more special characters to better handle different languages.
+
+[IMPROVEMENTS]
+- Fixed and added missing translation strings in the locale files.
+
+
 2.0.3
 [NEW FEATURES]
 - Add random drawable on enemy spawn
