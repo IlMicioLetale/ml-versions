@@ -1,4 +1,1 @@
-0.0.9
-
-[PRERELEASE]
-- Initial prerelease version
+1.0.0
