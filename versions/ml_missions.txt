@@ -1,1 +1,20 @@
+2.1.0
+[NEW FEATURES]
+- Multi-Position NPCs: the same NPC can now spawn in multiple locations on the map. Turn-in always routes back to the specific ped that gave the quest.
+- Jobs Online Requirement: require a minimum number of players with specific jobs online before a quest can start, with independent counters per job.
+- NPC Interaction Lock: only one player at a time can talk to a quest NPC. Prevents duplicated dialogue lines and race conditions.
+- Map Pins for Multi-NPCs: the admin NPC map shows a pin for every spawn position with numbered badges.
+
+[IMPROVEMENTS]
+- TTS System Revamp: persistent audio cache survives script updates, first TTS line plays instantly thanks to audio pre-warm, same text and voice never calls the API again.
+- Creator UI: new panels for Required Jobs Online and Additional NPC Positions.
+- Smarter Turn-In Blip: blip points only to the ped that gave the quest, not to all clones.
+- All 9 languages (EN, IT, DE, ES, FR, JA, PT-BR, TR, ZH) fully synchronized.
+
+[BUG FIXES]
+- Kill objectives now reliably spawn NPCs and vehicles on first try.
+- VIP defense correctly fails if the VIP dies at the exact moment the timer reaches zero.
+- Reward items no longer silently disappear when inventory is partially full.
+
+
 2.0.6
