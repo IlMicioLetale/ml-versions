@@ -1,1 +1,19 @@
-1.0.0
+1.2.0
+
+[NEW FEATURES]
+- Painkillers and morphine now really stop the pain, with a timer in the medical panel.
+- New doseGroup on items: items in the same group share one dose counter.
+- Doses survive a relog, so reconnecting no longer clears an overdose.
+- New GetMedicalData export to feed your own HUD.
+- Base Building support: no tents in other people's bases, base beds on the death screen.
+
+[IMPROVEMENTS]
+- The medical panel shows a Medication in system row with doses and time left.
+- 3 new locale lines, in all 9 languages.
+
+[BUG FIXES]
+- Overdose hit the medic instead of the patient.
+- Overdose did not take the item, so the blur effect was free.
+- Painkiller items did nothing at all.
+- Blood regen boosts never worked.
+- The tent was free if the item removal failed.
