@@ -1,3 +1,18 @@
+3.0.1
+[NEW FEATURES]
+- Added optional ground placement for dropped items, including items in equipped bags.
+- Added clothing collections, with bag sizes, armor settings and clothing requirements.
+- Added ExchangeItems for server scripts to remove and give items in one operation.
+[IMPROVEMENTS]
+- Clothing keeps its collection data when appearance is updated.
+- ML Bridge is now listed as a required inventory dependency.
+[BUG FIXES]
+- Fixed double-click, Use and Give selecting a weapon from the first pocket slots.
+- Fixed transfers and item updates in equipped bags.
+- Fixed the equipment panel not reopening after closing an equipped inventory.
+- Fixed drops being blocked when an older item placement resource is running.
+
+
 1.1.0
 [NEW FEATURES]
 - New Rarity Theme: Added a third theme that colors the container borders with the item's rarity color.
