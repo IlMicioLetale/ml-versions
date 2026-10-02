@@ -1,16 +1,15 @@
 3.0.1
 [NEW FEATURES]
-- Added optional ground placement for dropped items, including items in equipped bags.
-- Added clothing collections, with bag sizes, armor settings and clothing requirements.
-- Added ExchangeItems for server scripts to remove and give items in one operation.
+- Added support for clothing collections from GTA DLCs and custom clothing packs.
+- Added bag capacity, armor type and extra clothing component settings for each collection.
 [IMPROVEMENTS]
 - Clothing keeps its collection data when appearance is updated.
+- Added the ExchangeItems server export for other scripts. Items are removed and given together; a rejected exchange leaves the inventory unchanged.
 - ML Bridge is now listed as a required inventory dependency.
 [BUG FIXES]
 - Fixed double-click, Use and Give selecting a weapon from the first pocket slots.
 - Fixed transfers and item updates in equipped bags.
 - Fixed the equipment panel not reopening after closing an equipped inventory.
-- Fixed drops being blocked when an older item placement resource is running.
 
 
 1.1.0
