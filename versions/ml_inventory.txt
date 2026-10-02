@@ -4,7 +4,7 @@
 - Added bag capacity, armor type and extra clothing component settings for each collection.
 [IMPROVEMENTS]
 - Clothing keeps its collection data when appearance is updated.
-- Added the ExchangeItems server export for other scripts. Items are removed and given together; a rejected exchange leaves the inventory unchanged.
+- Added an editable hook for custom item placement resources.
 - ML Bridge is now listed as a required inventory dependency.
 [BUG FIXES]
 - Fixed double-click, Use and Give selecting a weapon from the first pocket slots.
