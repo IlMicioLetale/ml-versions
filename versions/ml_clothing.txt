@@ -1,7 +1,6 @@
 3.0.2
 [NEW FEATURES]
 [IMPROVEMENTS]
-- Removed automatic resource-stop attempts from the resource name check.
 [BUG FIXES]
 - Fixed the loot reveal panel opening alongside the normal stash window when looting with ML LootProps or ML LootZones.
 
