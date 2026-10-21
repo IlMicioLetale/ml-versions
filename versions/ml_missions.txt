@@ -1,3 +1,29 @@
+2.3.0
+
+[NEW FEATURES]
+- Added the Camera objective with three modes: cinematic, single shot and security cameras
+- Cinematics can have up to 32 shots with cut, linear or smooth transitions, subtitles and voice
+- Each shot can look at a saved direction, a world position or the player
+- Set up each shot in game with a free camera and preview it from the creator
+- In a squad, the cinematic starts for everyone at the same time once the members are together, and late members join where it is
+- Security cameras: build a camera network linked to a terminal, with cameras players must check, job and item access, and cameras that turn on or off after other objectives
+- Added a clothing reward to the loot editor: pick a fixed piece or a random piece from a series, with a photo of every model (needs ML Inventory)
+- Finished missions can now advance battlepass objectives
+- Added server exports to start, complete, fail and cancel missions, and to complete or advance objectives
+- Added the Handlers.OnEnemyPedReady hook in open/handlers_client.lua, to apply your own weapon damage script to mission enemies
+
+[IMPROVEMENTS]
+- Reward items that cannot be delivered are saved and given later
+- The creator warns you when someone else saved the same mission while you were editing it
+- A mission now stops when the player switches character
+
+[BUG FIXES]
+- Fixed retrieve item objectives not taking the item back when the mission ended before returning to the NPC
+- Fixed players without creator access being able to upload, vote and delete on the community hub
+- Fixed community imports showing a success message when the save failed
+- Fixed exported missions breaking when a text contained a backslash
+- Fixed missing translations in mission save messages
+
 2.1.0
 [NEW FEATURES]
 - Multi-Position NPCs: the same NPC can now spawn in multiple locations on the map. Turn-in always routes back to the specific ped that gave the quest.
