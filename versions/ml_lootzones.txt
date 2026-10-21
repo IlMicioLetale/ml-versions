@@ -1,1 +1,11 @@
-1.0.0
+1.2.0
+
+[NEW FEATURES]
+- Added a clothing reward to the loot editor: pick a fixed piece or a random piece from a series, with a photo of every model (needs ML Inventory)
+- Looting zone props and world props can now advance battlepass objectives
+- Added server exports to read zone data, list zones, check if a player is in a zone, refresh zone loot and turn a zone on or off
+
+[BUG FIXES]
+- Fixed world props and prop categories set as active being treated as inactive, so world props could not be looted
+- Saving or deleting a world prop or prop category now works right away, without a restart
+- Fixed players collecting zone loot from another routing bucket, such as an apartment or instance on top of the zone
