@@ -1,1 +1,4 @@
-1.0.0
+1.0.6
+
+[BUG FIXES]
+- Fixed purchases failing when an item used a decimal number in a mathRandom metadata
