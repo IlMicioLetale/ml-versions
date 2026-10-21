@@ -1,1 +1,9 @@
-1.0.0
+1.2.0
+
+[NEW FEATURES]
+- Added a clothing reward to the loot editor: pick a fixed piece or a random piece from a series, with a photo of every model (needs ML Inventory)
+- Harvests can now advance battlepass objectives
+
+[IMPROVEMENTS]
+- Plant prompts now use the same key bar as the other Micio scripts
+- Finished the French translation of the metadata editor
