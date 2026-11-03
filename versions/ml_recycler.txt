@@ -1,1 +1,32 @@
 1.1.0
+
+[NEW FEATURES]
+- Added a staff panel with the /recyclers command.
+- Map and list of every recycler on the server, with search, filters and live stats.
+- Machine details: owner, fuel, durability, upgrades and what is inside each slot.
+- Staff actions: teleport, refuel, repair and remove.
+- Stations tab: place public recyclers in game with a preview, then move, rename or remove them.
+- Recipes tab: create, edit and delete recipes with an item search and a tier preview.
+- Upgrades tab: create and edit upgrade kits and their effects.
+- Settings tab: features, slots, limits, permissions, fuel, wear, placement and zombie noise.
+- Panel changes work right away and can be reset to the config values.
+- Upgrades can add slots, raise the machine tier and require another upgrade first.
+- New webhook for staff actions and panel changes.
+- Press F9 to hide the panel and bring it back.
+
+[IMPROVEMENTS]
+- Items put in a slot now keep their metadata.
+- Items are given back if the server stops or the database fails during an action.
+- A player can only run one recycler action at a time.
+- The panel blocks changes that would lose player items.
+- The machine screen shows the real reason when something is refused.
+- Upgrades that add slots show Slots +3 instead of a percentage.
+- Machines placed before a maxSlots change get the new slots on restart.
+
+[BUG FIXES]
+- Fixed recipe outputs with tierRequired never dropping.
+- Fixed the solar panel never adding fuel.
+- Fixed a placed recycler losing its saved fuel, wear and upgrades when placed more than a minute after using the item.
+- Fixed the wrong message when collecting loot with a full inventory.
+- Fixed a game crash when the resource was restarted with a recycler open.
+- Fixed the wrong message when removing an upgrade with items in the extra slots.
