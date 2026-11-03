@@ -1,44 +1,6 @@
-3.0.2
+3.1.1
+
 [NEW FEATURES]
-[IMPROVEMENTS]
-[BUG FIXES]
-- Fixed the loot reveal panel opening alongside the normal stash window when looting with ML LootProps or ML LootZones.
-
-3.0.1
-[NEW FEATURES]
-- Added support for clothing collections from GTA DLCs and custom clothing packs.
-- Added bag capacity, armor type and extra clothing component settings for each collection.
-[IMPROVEMENTS]
-- Clothing keeps its collection data when appearance is updated.
-- Added an editable hook for custom item placement resources.
-- ML Bridge is now listed as a required inventory dependency.
-[BUG FIXES]
-- Fixed double-click, Use and Give selecting a weapon from the first pocket slots.
-- Fixed transfers and item updates in equipped bags.
-- Fixed the equipment panel not reopening after closing an equipped inventory.
-
-
-1.1.0
-[NEW FEATURES]
-- New Rarity Theme: Added a third theme that colors the container borders with the item's rarity color.
-- Improved Player Inventory UI: Enhanced aesthetics when opening another player's inventory, now showing clothing image placeholders in the dedicated slots for easier item exchange and place.
-- Refined Information Container: Reduced the size and slightly increased the transparency of the item information container for better visibility.
-
-
-1.0.4
-[NEW FEATURES]
-- Added a new 3D prop that appears when inserting a plate
-- New logic for wearing armor: simply use the item for rapid equipping.
-- Added an option in the config to disable unwanted notifications.
-
-
-1.0.3
-[NEW FEATURES]
-- Added new rarity styles (classic and border) in the build folder.
-
-
-1.0.2
-[NEW FEATURES]
-- Added a larger item photo preview when dragging items in the UI.
-- Improved logic to prevent unauthorized items from being placed in dedicated clothing slots.
-- Updated ox_inventory to the latest community version.
+- Added temporary job uniforms that restore civilian clothing and keep equipped bags, armor and plate health.
+- Clothing can be a loot reward in ML scripts that support it, with a photo of every model.
+- Added clothing image exports for other resources.
