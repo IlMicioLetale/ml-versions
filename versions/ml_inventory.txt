@@ -1,18 +1,54 @@
-3.0.2
-[NEW FEATURES]
-[IMPROVEMENTS]
-[BUG FIXES]
-- Fixed the loot reveal panel opening alongside the normal stash window when looting with ML LootProps or ML LootZones.
+3.1.1
 
-3.0.1
 [NEW FEATURES]
-- Added support for clothing collections from GTA DLCs and custom clothing packs.
-- Added bag capacity, armor type and extra clothing component settings for each collection.
+- Added a crafting menu with recipe previews, search, categories and a filter for craftable recipes.
+- Ingredients, tool wear, crafting time and output amount are shown before crafting.
+- Added batch crafting with a quantity selector and a Max button.
+- Added a workbench editor to the admin panel with recipes, reusable tools, duplication, locations, props, job restrictions and map blips.
+- Added a shop menu with search, categories, stock limits, rank requirements and a cart.
+- Shops can take cash, bank or both, per shop or per product.
+- Item currencies such as black money show with their image in shops.
+- Added 3D trunk placement, off by default.
+- Works with car trunks, pickup beds, vans and box trucks with rear doors.
+- Vans and trucks open their rear doors by themselves during placement.
+- Items sit on the cargo floor and can be stacked on top of other placed items.
+- Added a trunk camera with rotate, tilt, roll and straighten controls.
+- Placed items are visible to every nearby player and keep their position and rotation.
+- Each item can use its own prop, with presets for weapons, ammo and common items, other items use a box.
+- Trunks of vehicles without an owner are saved too, and cleaned up after some days without use.
+- Added temporary job uniforms that restore civilian clothing and keep equipped bags, armor and plate health.
+- Clothing can be a loot reward in ML scripts that support it, with a photo of every model.
+- Added clothing image exports for other resources.
+- Added an option to remove the weapons panel, slots 1 and 2 become the first two pocket cells.
+- Added an option to hide item rarity everywhere.
+
 [IMPROVEMENTS]
-- Clothing keeps its collection data when appearance is updated.
-- Added an editable hook for custom item placement resources.
-- ML Bridge is now listed as a required inventory dependency.
+- Reworked the crafting and shop menus to match the inventory panels.
+- All panel headers now have the same size.
+- Panels placed under or next to another panel now follow it when you change the UI scale.
+- Shop purchases now stack on items you already have.
+- Trunk placement always uses the inventory's own engine, so it works the same with or without ML Item Throwing.
+- The trunk placement preview is only green or red, and stays visible while you rotate it.
+- Items move more smoothly while you place them in a trunk.
+- Trunk placement controls now use the same key bar as the other ML scripts.
+- The Place All Items setting is hidden when ML Item Throwing is not installed.
+- Hotkeys 1 and 2 now use the weapon slots, the quick wheel uses 3 to 7.
+- Items that cannot stack past their limit are now blocked before placement.
+- Rarity style changes apply right away.
+- Changes to item degradation settings now apply to existing items.
+- The idle camera no longer starts while the inventory is open.
+
 [BUG FIXES]
-- Fixed double-click, Use and Give selecting a weapon from the first pocket slots.
-- Fixed transfers and item updates in equipped bags.
-- Fixed the equipment panel not reopening after closing an equipped inventory.
+- Fixed shop items being bought when dropped outside your pockets.
+- Fixed shop items not being bought when dropped on a different item.
+- Fixed the weapons panel being covered by the pockets panel after changing the UI scale.
+- Fixed item collisions when dragging items that use more than one cell.
+- Fixed overlapping splits in the grid.
+- Fixed vests becoming locked after inserting the first armor plate.
+- Fixed expired items staying until used and decay replacements giving the wrong amount.
+- Fixed missing items in large drops and drops appearing in the wrong instance.
+- Fixed bags and containers merging into stacks.
+- Fixed stash grids ignoring their column count.
+- Fixed armor plate health when moving or re-equipping a vest.
+- Fixed the backpack weight slowdown not always applying.
+- Fixed placed stash prop positions and labels.
