@@ -1,1 +1,7 @@
-1.0.0
+1.2.0
+
+[BUG FIXES]
+- Fixed Set Level giving one extra level and one extra point on the next XP gain.
+- Lowering a level with Set Level now removes the points of the lost levels.
+- Fixed skills reset, category reset and the LockSkill export giving points back for skills that were unlocked for free (default free skills, admin unlocks and the UnlockSkill export).
+- With unified points, refunds now go back to the categories the points were taken from.
