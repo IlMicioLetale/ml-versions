@@ -5,6 +5,3 @@
 - Clearing a camp can now advance battlepass objectives for every player who took part, also when playing alone
 - Added server exports to read a camp status, check if a camp is cleared and count the enemies still alive
 - Added the Handlers.OnEnemyPedReady hook in open/handlers_client.lua, to apply your own weapon damage script to camp enemies
-
-[BUG FIXES]
-- Kills made with a vehicle now count for its driver
