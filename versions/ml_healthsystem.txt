@@ -5,7 +5,3 @@
 - Recovery time can count real time or only online time.
 - Players can keep playing their other characters during recovery.
 - New exports IsInRecovery and EndRecovery, and recovery start/end events.
-
-[BUG FIXES]
-- Life points commands no longer fail from the server console.
-- The Health label in the scan panel is now translated.
