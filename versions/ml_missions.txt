@@ -9,4 +9,3 @@
 [IMPROVEMENTS]
 - Mission NPCs and vehicles now spawn in the routing bucket of the player who triggers them.
 - Reworked the mission creator layout.
-- Rewrote the Chinese translation.
