@@ -4,4 +4,4 @@
 - Added Config.UITheme to choose the theme preset and colors for all health menus and 3D callouts.
 
 [IMPROVEMENTS]
-- Reworked the respawn menu with a lighter, semi-transparent look.
+- Aligned the UI with the Micio toolkit style.
