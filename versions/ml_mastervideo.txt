@@ -1,1 +1,4 @@
-1.0.4
+1.0.5
+
+[IMPROVEMENTS]
+- Editor access now uses Config.AdminPermissions and Config.AcePermission.
