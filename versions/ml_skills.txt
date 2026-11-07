@@ -1,0 +1,10 @@
+1.2.1
+
+[NEW FEATURES]
+- Added Config.UITheme to set the preset and colors of the menu.
+
+[IMPROVEMENTS]
+- The skill tree now opens right away.
+- Dragging the tree is now smoother and follows the mouse directly.
+- Reworked the size of big star nodes.
+- Icons now scale with the node shape.

@@ -1,0 +1,12 @@
+2.4.0
+
+[NEW FEATURES]
+- Added Private Mission in the creator: each player or squad plays in a separate routing bucket.
+- Added client hooks to restyle or hide objective blips and use your own icons.
+- Added the client export GetActiveObjectives and the event ml_missions:client:objectivesUpdated.
+- Added the server exports HasCompletedQuest, GetCompletedQuests, GetQuestCooldown, ClearQuestCooldown and GetAvailableQuests.
+
+[IMPROVEMENTS]
+- Mission NPCs and vehicles now spawn in the routing bucket of the player who triggers them.
+- Reworked the mission creator layout.
+- Rewrote the Chinese translation.

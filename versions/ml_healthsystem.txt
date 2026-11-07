@@ -1,0 +1,7 @@
+1.5.0
+
+[NEW FEATURES]
+- Added Config.UITheme to choose the theme preset and colors for all health menus and 3D callouts.
+
+[IMPROVEMENTS]
+- Reworked the respawn menu with a lighter, semi-transparent look.

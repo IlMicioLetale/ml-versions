@@ -1,0 +1,6 @@
+1.2.0
+
+[NEW FEATURES]
+- Added a clothing reward to the loot editor: pick a fixed piece or a random piece from a series, with a photo of every model (needs ML Inventory).
+- Looting zone props and world props can now advance battlepass objectives.
+- Added server exports to read zone data, list zones, check if a player is in a zone, refresh zone loot and turn a zone on or off.

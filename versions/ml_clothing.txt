@@ -1,0 +1,6 @@
+3.1.1
+
+[NEW FEATURES]
+- Added temporary job uniforms that restore civilian clothing and keep equipped bags, armor and plate health.
+- Clothing can be a loot reward in ML scripts that support it, with a photo of every model.
+- Added clothing image exports for other resources.

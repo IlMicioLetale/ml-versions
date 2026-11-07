@@ -1,0 +1,13 @@
+2.0.0
+
+[NEW FEATURES]
+- Added a staff panel with the /recyclers command.
+- Map and list of every recycler on the server, with search, filters and live stats.
+- Machine details: owner, fuel, durability, upgrades and what is inside each slot.
+- Staff actions: teleport, refuel, repair and remove.
+- Stations tab: place public recyclers in game with a preview, then move, rename or remove them.
+- Recipes tab: create, edit and delete recipes with an item search and a tier preview.
+- Upgrades tab: create and edit upgrade kits and their effects.
+- Settings tab: features, slots, limits, permissions, fuel, wear, placement and zombie noise.
+- Upgrades can add slots, raise the machine tier and require another upgrade first.
+- New webhook for staff actions and panel changes.
