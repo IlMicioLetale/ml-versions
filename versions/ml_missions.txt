@@ -5,7 +5,9 @@
 - Added client hooks to restyle or hide objective blips and use your own icons.
 - Added the client export GetActiveObjectives and the event ml_missions:client:objectivesUpdated.
 - Added the server exports HasCompletedQuest, GetCompletedQuests, GetQuestCooldown, ClearQuestCooldown and GetAvailableQuests.
+- Added the client exports GetQuestGivers and RefreshQuestGivers and the event ml_missions:client:questGiversUpdated.
 
 [IMPROVEMENTS]
 - Mission NPCs and vehicles now spawn in the routing bucket of the player who triggers them.
 - Reworked the mission creator layout.
+- Rewrote the Chinese translation.
