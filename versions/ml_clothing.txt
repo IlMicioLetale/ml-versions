@@ -1,6 +1,13 @@
-3.1.1
+3.2.0
 
 [NEW FEATURES]
-- Added temporary job uniforms that restore civilian clothing and keep equipped bags, armor and plate health.
-- Clothing can be a loot reward in ML scripts that support it, with a photo of every model.
-- Added clothing image exports for other resources.
+- Dropped items show on the ground as their own 3D prop instead of the drop bag.
+- Before dropping, players can aim, turn and place the item where they want.
+- Hold the right mouse button while placing to look around.
+
+[IMPROVEMENTS]
+- The trunk placement key bar is smaller and fits on two lines.
+- The trunk placement outline stays green while you move the item and turns red only where it cannot go.
+- New look for the lock on locked loot crates.
+- Loot containers no longer have stripes.
+- The heavy plate carrier now shows 2 plate slots.
