@@ -3,7 +3,8 @@
 [NEW FEATURES]
 - Dropped items show on the ground as their own 3D prop instead of the drop bag.
 - Before dropping, players can aim, turn and place the item where they want.
-- Hold the right mouse button while placing to look around.
+- Hold the right mouse button while placing to move the camera freely.
+- The character crouches down to place the item.
 
 [IMPROVEMENTS]
 - The trunk placement key bar is smaller and fits on two lines.
