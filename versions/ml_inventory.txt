@@ -1,14 +1,1 @@
-3.2.0
-
-[NEW FEATURES]
-- Dropped items show on the ground as their own 3D prop instead of the drop bag.
-- Before dropping, players can aim, turn and place the item where they want.
-- Hold the right mouse button while placing to move the camera freely.
-- The character crouches down to place the item.
-
-[IMPROVEMENTS]
-- The trunk placement key bar is smaller and fits on two lines.
-- The trunk placement outline stays green while you move the item and turns red only where it cannot go.
-- New look for the lock on locked loot crates.
-- Loot containers no longer have stripes.
-- The heavy plate carrier now shows 2 plate slots.
+3.2.1
