@@ -1,5 +1,15 @@
 3.2.1
 
+[NEW FEATURES]
+- Dropped items show on the ground as their own 3D prop instead of the drop bag.
+- Before dropping, players can aim, turn and place the item where they want.
+- Hold the right mouse button while placing to look around.
+
 [IMPROVEMENTS]
 - With Grid.weaponSlots = false, quick slots now use keys 1 to 5.
+- The trunk placement key bar is smaller and fits on two lines.
+- The trunk placement outline stays green while you move the item and turns red only where it cannot go.
+- New look for the lock on locked loot crates.
+- Loot containers no longer have stripes.
+- The heavy plate carrier now shows 2 plate slots.
 - Number fields only show the - and + buttons.
