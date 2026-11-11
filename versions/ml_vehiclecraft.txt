@@ -1,1 +1,4 @@
-1.0.6
+1.0.7
+
+[IMPROVEMENTS]
+- The vehicle shell now shows the same plate as the finished vehicle.
