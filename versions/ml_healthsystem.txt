@@ -1,7 +1,8 @@
-1.5.0
+1.6.0
 
 [NEW FEATURES]
-- Added Config.UITheme to choose the theme preset and colors for all health menus and 3D callouts.
+- A downed player can now revive themselves with a revive item and one key, if you allow it on that item.
 
 [IMPROVEMENTS]
-- Aligned the UI with the Micio toolkit style.
+- The respawn tent now shows key hints on screen while you place it.
+- The classic panel now tells you when you have no suitable item for a wound.
