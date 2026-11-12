@@ -1,15 +1,12 @@
-3.2.1
+3.2.2
 
 [NEW FEATURES]
-- Dropped items show on the ground as their own 3D prop instead of the drop bag.
-- Before dropping, players can aim, turn and place the item where they want.
-- Hold the right mouse button while placing to look around.
+- Dropped items now show as a 3D prop on the ground.
+- You can aim, rotate and place the item where you want.
+- You can turn off the weapon panel and use slots 1 and 2 as pockets.
+- You can hide rarity everywhere.
 
 [IMPROVEMENTS]
-- With Grid.weaponSlots = false, quick slots now use keys 1 to 5.
-- The trunk placement key bar is smaller and fits on two lines.
-- The trunk placement outline stays green while you move the item and turns red only where it cannot go.
-- New look for the lock on locked loot crates.
-- Loot containers no longer have stripes.
-- The heavy plate carrier now shows 2 plate slots.
-- Number fields only show the - and + buttons.
+- Vans now check the wheel arches when you place items in 3D.
+- Workbench and stash props now sit on the ground when you place them.
+- Crafting now shows a progress bar.
