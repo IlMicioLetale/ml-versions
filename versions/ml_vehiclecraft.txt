@@ -1,5 +1,5 @@
-1.0.8
+1.0.9
 
 [IMPROVEMENTS]
-- The build panel and the redeem window now use the same look as the other Micio Mods scripts.
-- Parts in the build panel are split into Missing and Installed.
+- Parts without vehicle data now fit every vehicle.
+- The build panel now shows only the parts you can use on that vehicle.
