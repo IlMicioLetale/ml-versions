@@ -1,12 +1,5 @@
-3.2.2
+3.2.3
 
 [NEW FEATURES]
-- Dropped items now show as a 3D prop on the ground.
-- You can aim, rotate and place the item where you want.
-- You can turn off the weapon panel and use slots 1 and 2 as pockets.
-- You can hide rarity everywhere.
-
-[IMPROVEMENTS]
-- Vans now check the wheel arches when you place items in 3D.
-- Workbench and stash props now sit on the ground when you place them.
-- Crafting now shows a progress bar.
+- You can choose how the other player is named in give offers: ID, full RP name, first RP name or FiveM name.
+- You can turn the Delete button on or off, for all items or item by item.
