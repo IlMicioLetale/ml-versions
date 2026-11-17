@@ -1,0 +1,7 @@
+1.0.2
+
+[NEW FEATURES]
+- New Config.PickupFromVehicle option to choose if players sitting in a vehicle can pick up items.
+
+[IMPROVEMENTS]
+- Dropped weapons now use a radius pickup zone, so they are easier to pick up from the ground.
