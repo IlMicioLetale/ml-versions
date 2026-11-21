@@ -1,1 +1,12 @@
-1.0.2
+1.0.6
+
+[NEW FEATURES]
+- Biofuel is now a full fuel type, with its own bottle and conversion kit.
+- Players can place solar panels that charge in daylight.
+- No-loot zones can block siphoning, wreck searches and pump scavenging.
+- Six EV chargers now come on the map with blips.
+
+[IMPROVEMENTS]
+- The jerry can sits in the hand and pours into the fuel cap.
+- EV charging takes real time and you can walk away from the car.
+- The fuel panel and vehicle inspection now follow your language.
