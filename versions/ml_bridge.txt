@@ -1,7 +1,5 @@
-1.5.3
-
-[NEW FEATURES]
-- The admin hub now shows the version of each script and marks available updates.
+1.5.6
 
 [IMPROVEMENTS]
-- The /mladmin chat suggestion is now shown only to players who can open the hub.
+- Vehicle keys now follow vehicles that are respawned by other scripts.
+- Key requests are checked against the vehicle owner.
