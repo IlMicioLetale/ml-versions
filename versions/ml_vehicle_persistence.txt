@@ -1,4 +1,4 @@
-1.0.6
+1.0.7
 
 [IMPROVEMENTS]
 - Added qbx_vehiclekeys support, so your keys stay with the car after a restart.
