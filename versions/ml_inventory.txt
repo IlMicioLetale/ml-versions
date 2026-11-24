@@ -1,5 +1,1 @@
-3.2.3
-
-[NEW FEATURES]
-- You can choose how the other player is named in give offers: ID, full RP name, first RP name or FiveM name.
-- You can turn the Delete button on or off, for all items or item by item.
+3.2.4
