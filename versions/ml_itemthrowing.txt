@@ -1,5 +1,7 @@
-1.1.0
+1.0.2
 
 [NEW FEATURES]
-- Hold the throw button to charge your throw: a power bar goes up and down, let go to throw softer or harder.
-- A quick tap still throws at normal power.
+- New Config.PickupFromVehicle option to choose if players sitting in a vehicle can pick up items.
+
+[IMPROVEMENTS]
+- Dropped weapons now use a radius pickup zone, so they are easier to pick up from the ground.
